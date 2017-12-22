@@ -1,0 +1,49 @@
+*** general device informations ***
+name: GeForce GTX 1060 6GB
+compute capability: 6.1
+integrated: false
+multi-GPU board: false
+compute mode: default
+clock rate: 1835 MHz
+async engine count: 2
+kernel execution timeout: enabled
+stream priorities: supported
+native atomic operations between device and host: not supported
+Tesla device with TCC driver: false
+ratio of single and double precisioni performance: 32
+PCI bus ID: 129
+PCI device ID: 0
+PCI domain ID: 0
+
+*** memory informations ***
+total global memory: 6067 MB
+total constant memory: 64 kB
+global L1 cache: supported
+local L1 cache: supported
+L2 cache size: 1 MB
+memory bus width: 192 bit
+memory clock rate: 4004 MHz
+managed memory: supported
+unified addressing: supported
+ECC:: disabled
+max memory pitch: 2047 MB
+texture alignment: 512
+texture pitch alignment: 32
+can map host memory with cudaHostAlloc/cudaHostGetDevicePointer: true
+access pageable memory concurrently without cudeHostRegister: not supported
+
+*** multiprocessing informations ***
+multiprocessor count: 10
+registers per block: 65536
+threads in warp: 32
+max threads per multiprocessor: 2048
+max threads per block: 1024
+max thread dimensions: {1024, 1024, 64}
+max grid dimensions: {2147483647, 65535, 65535}
+concurrent kernels: supported
+registers per multiprocessor: 65536
+shared memory per multiprocessor: 96 kB
+shared memory per block: 48 kB
+access managed memory concurrently with CPU: supported
+
+
